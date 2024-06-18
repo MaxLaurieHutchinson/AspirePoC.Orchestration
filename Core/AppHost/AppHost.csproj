@@ -11,6 +11,13 @@
 
   <ItemGroup>
     <PackageReference Include="Aspire.Hosting.AppHost" Version="8.0.1" />
+    <PackageReference Include="HotChocolate.Fusion.Aspire" Version="14.0.0-p.106" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\AspirePoC.ActorService\AspirePoC.ActorService\AspirePoC.ActorService.csproj" />
+    <ProjectReference Include="..\..\..\AspirePoC.BookService\AspirePoC.BookService\AspirePoC.BookService.csproj" />
+    <ProjectReference Include="..\..\..\AspirePoC.GatewayService\AspirePoC.GatewayService\AspirePoC.GatewayService.csproj" />
   </ItemGroup>
 
 </Project>
