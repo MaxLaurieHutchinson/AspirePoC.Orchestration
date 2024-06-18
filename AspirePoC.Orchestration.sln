@@ -11,13 +11,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{60
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5457CF9B-8903-43DE-81C0-4E30610E3000}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHost", "Core\AppHost\AppHost.csproj", "{D7D407F9-E2AD-44FD-8FE7-2EC8E1A78856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceDefaults", "Core\ServiceDefaults\ServiceDefaults.csproj", "{D0E3EFFC-A8A1-4811-90EA-B024BA34B0A7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7D407F9-E2AD-44FD-8FE7-2EC8E1A78856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D407F9-E2AD-44FD-8FE7-2EC8E1A78856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D407F9-E2AD-44FD-8FE7-2EC8E1A78856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D407F9-E2AD-44FD-8FE7-2EC8E1A78856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0E3EFFC-A8A1-4811-90EA-B024BA34B0A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E3EFFC-A8A1-4811-90EA-B024BA34B0A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E3EFFC-A8A1-4811-90EA-B024BA34B0A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E3EFFC-A8A1-4811-90EA-B024BA34B0A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5BF957E7-FEB0-4982-85FA-08865A50A395} = {87F934DB-7036-46B3-9E07-0902284B5079}
 		{60452B84-77B6-45B9-925E-141D07AAF3EA} = {87F934DB-7036-46B3-9E07-0902284B5079}
+		{D7D407F9-E2AD-44FD-8FE7-2EC8E1A78856} = {5BF957E7-FEB0-4982-85FA-08865A50A395}
+		{D0E3EFFC-A8A1-4811-90EA-B024BA34B0A7} = {5BF957E7-FEB0-4982-85FA-08865A50A395}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CCBD6845-2CC2-4F24-9672-E4802A5AF1D5}
